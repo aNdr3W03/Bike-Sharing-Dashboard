@@ -7,8 +7,8 @@ Usage:
 - Run the streamlit dashboard
 """
 
-import pandas as pd
 import datetime
+import pandas as pd
 import streamlit as st
 from dashboard.func import (
   create_df_yr, create_df_holiday, create_df_working_day,
